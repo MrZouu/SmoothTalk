@@ -1,0 +1,5 @@
+import torch
+
+# Vérifier si un GPU est disponible
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
