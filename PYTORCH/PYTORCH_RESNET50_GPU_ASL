@@ -8,6 +8,7 @@ import os
 # Vérifier si un GPU est disponible
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
+print("Using the ASL DATASET")
 
 # Définir la transformation des données
 transform = transforms.Compose([
@@ -17,7 +18,7 @@ transform = transforms.Compose([
 ])
 
 # Définir le chemin vers le dossier contenant le dataset ASL Alphabet
-data_path = './archive'  # Remplacez './archive' par le chemin réel vers votre dossier
+data_path = 'C:\\Users\\thoma\\OneDrive\\Bureau\\COURS\\ING4\\PPE\\SmoothTalk\\data\\ASL'
 
 # Charger le jeu de données ASL Alphabet
 asl_dataset = datasets.ImageFolder(root=data_path, transform=transform)
@@ -37,7 +38,8 @@ class ResNet50(nn.Module):
     def __init__(self):
         super(ResNet50, self).__init__()
         # Charger le modèle pré-entraîné ResNet50
-        resnet = models.resnet50(pretrained=True)
+        resnet = models.resnet50(pretrained=True) #possible change cause pretrained is deprecated : resnet = models.resnet50(weights='imagenet')
+        
         # Extraire les couches sauf la couche de classification finale (dernière couche)
         self.features = nn.Sequential(*list(resnet.children())[:-1])
 
