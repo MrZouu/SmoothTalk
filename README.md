@@ -29,6 +29,11 @@ The advantage is that we are not limited by the free version of Google Colab.
 - Command path to enter in cmd : "pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117"
 * **Installation check** : cmd -> python -> import torch -> torch.cuda.device_count() -> Should display "1"
 
+# Utils folder
+* **Data_Augmentation** - Augment dataset data/images (blur, flip, contrast)
+* **Generer_Dataset** - Interface allowing you to fill a dataset file with the letters of the alphabet, from the webcam. Press "c" to capture an image and "n" to change letters.
+* **merge_different_dataset** - Place images from different datasets in a single file, respecting the tree structure.
+
 #  Credits
 * [**Lorenzo**](https://github.com/MrZouu) : Co-creator of the project.
 * [**Sc0pziion**](https://github.com/sc0pziion) : Co-creator of the project.
