@@ -6,10 +6,37 @@
 Sign language interpreter, to switch from a video signal to a corresponding word.
 This machine-learning project, powered by PyTorch, aims to develop a sign language recognition system.
 
-⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission
+⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission. This project was proposed by the company "Sia Partners".
+
+
+# Dependencies
+
+* [**CUDA**](#cuda-toolkit---pytorch)
+* [**Python**](https://www.python.org/)
+* [**PyTorch**](https://pytorch.org/)
+
+# Training
+
+* You need to download a dataset of images *(The appropriate amount of images remains to be defined. In our case it was around 150,000.)*. You can find a lot of datasets on [**Kaggle**](https://www.kaggle.com/datasets). The dataset must respect the format in `Dataset/T3_Echantillon.zip`.
+
+* Then, in the `model_trainer.ipynb` file, specify the **path** to the dataset
+
+* Set up **CUDA** explained below, to use the GPU and boost process speed
+
+* Run the `model_trainer.ipynb` file
+
+* Utilisez la version `model_trainer_colab.ipynb` si vous souhaitez utiliser l'interface [**Google Colab**](#google-colab---tensorflow-or-pytorch)
+
+# Testing
+
+* Préciser le chemin vers le fichier **.pth** généré dans le code `real_time_translation.py`
+
+* Run the `real_time_translation.py` file to load the model and use your webcam
+
+
 
 # GPU management
-##  Google Colab - Tensorflow
+##  Google Colab - Tensorflow or PyTorch
 For this project, Google colab is a very useful tool for processing our data in our machine learning pipeline.  
 In fact, Colab includes a gpu, enabling us to process our data more quickly and simply.  
 - ## Usage
@@ -37,6 +64,27 @@ The advantage is that we are not limited by the free version of Google Colab.
 * **data_augment_V2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
 * **merge_dataset_v2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
 * **merge_different_dataset** - Place images from different datasets in a single file, respecting the tree structure.
+
+
+# Tests
+
+<p align="center"><b>Streamlit Interface</b></p>
+<p align="center">
+	<img src="SmoothTalk/Home_Page_Streamlit.png" width="650">
+</p>
+
+
+<p align="center"><b>Letter T</b></p>
+<p align="center">
+	<img src="SmoothTalk/recognition_streamlit_1.png" width="650">
+</p>
+
+
+<p align="center"><b>Letter C</b></p>
+<p align="center">
+	<img src="SmoothTalk/recognition_streamlit_2.png" width="650">
+</p>
+
 
 #  Credits
 * [**Lorenzo**](https://github.com/MrZouu) : Co-creator of the project.
