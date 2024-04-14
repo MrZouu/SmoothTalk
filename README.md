@@ -29,6 +29,8 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 * [**Python**](https://www.python.org/)
 * [**PyTorch**](https://pytorch.org/)
 
+<br/>
+
 # Training
 
 * You need to download a dataset of images *(The appropriate amount of images remains to be defined. In our case it was around 150,000.)*. You can find a lot of datasets on [**Kaggle**](https://www.kaggle.com/datasets). The dataset must respect the format in `Dataset/T3_Echantillon.zip`. You can use the different python scritps in `utils` to manage datasets. More information in the [utils folder](#utils-folder)
@@ -47,6 +49,7 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 
 * Run the `real_time_translation.py` file to load the model and use your webcam
 
+<br/>
 
 # GPU management
 ##  Google Colab - Tensorflow or PyTorch
@@ -57,7 +60,6 @@ In fact, Colab includes a gpu, enabling us to process our data more quickly and 
 * **Upload a dataset in zip format to the Google Drive** - associated with the google account used on Colab.
 * **Change path in code and log in**
 * **Respect the tree structure**
-
 
 ## Cuda Toolkit - Pytorch
 An alternative to Google Colab is the Cuda Toolkit.
@@ -70,6 +72,8 @@ The advantage is that we are not limited by the free version of Google Colab.
 - Command path to enter in cmd : "pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117"
 * **Installation check** : cmd -> python -> import torch -> torch.cuda.device_count() -> Should display "1"
 
+<br/>
+
 # Utils folder
 * **Data_Augmentation** - Augment dataset data/images (blur, flip, contrast).
 * **Delete_Dataset_Images** - Delete a certain amount of images from a dataset.
@@ -79,6 +83,7 @@ The advantage is that we are not limited by the free version of Google Colab.
 * **merge_dataset_v2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
 * **merge_different_dataset** - Place images from different datasets in a single file, respecting the tree structure.
 
+<br/>
 
 # Tests
 
