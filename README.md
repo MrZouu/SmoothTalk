@@ -4,9 +4,9 @@
 ![Libraries](https://img.shields.io/badge/Libraries-PyTorch-00cf2c)
 
 Sign language interpreter, to switch from a video signal to a corresponding word.
-This machine-learning project, powered by TensorFlow, aims to develop a sign language recognition system.
+This machine-learning project, powered by PyTorch, aims to develop a sign language recognition system.
 
-⚠️This project is the result of a common work, made for school with a deadline and is still under development
+⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission
 
 # GPU management
 ##  Google Colab - Tensorflow
@@ -30,14 +30,17 @@ The advantage is that we are not limited by the free version of Google Colab.
 * **Installation check** : cmd -> python -> import torch -> torch.cuda.device_count() -> Should display "1"
 
 # Utils folder
-* **Data_Augmentation** - Augment dataset data/images (blur, flip, contrast)
+* **Data_Augmentation** - Augment dataset data/images (blur, flip, contrast).
+* **Delete_Dataset_Images** - Delete a certain amount of images from a dataset.
+* **EchantillonDataset** - Export a dataset sample to reduce its size.
 * **Generer_Dataset** - Interface allowing you to fill a dataset file with the letters of the alphabet, from the webcam. Press "c" to capture an image and "n" to change letters.
+* **data_augment_V2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
+* **merge_dataset_v2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
 * **merge_different_dataset** - Place images from different datasets in a single file, respecting the tree structure.
 
 #  Credits
 * [**Lorenzo**](https://github.com/MrZouu) : Co-creator of the project.
-* [**Sc0pziion**](https://github.com/sc0pziion) : Co-creator of the project.
+* [**Mathéo**](https://github.com/sc0pziion) : Co-creator of the project.
 * [**Clement Auray**](https://github.com/Clementauray) : Co-creator of the project.
 * [**Evann Ali-Yahia**](https://github.com/EvannAyh) : Co-creator of the project.
-* [**Yassine Drici**](https://github.com/Yasssdz) : Co-creator of the project.
-* [**ThhoommaassR**](https://github.com/ThhoommaassR) : Co-creator of the project.
+* [**Thomas**](https://github.com/ThhoommaassR) : Co-creator of the project.
