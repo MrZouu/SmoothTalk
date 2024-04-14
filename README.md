@@ -31,7 +31,7 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 
 # Training
 
-* You need to download a dataset of images *(The appropriate amount of images remains to be defined. In our case it was around 150,000.)*. You can find a lot of datasets on [**Kaggle**](https://www.kaggle.com/datasets). The dataset must respect the format in `Dataset/T3_Echantillon.zip`.
+* You need to download a dataset of images *(The appropriate amount of images remains to be defined. In our case it was around 150,000.)*. You can find a lot of datasets on [**Kaggle**](https://www.kaggle.com/datasets). The dataset must respect the format in `Dataset/T3_Echantillon.zip`. You can use the different python scritps in `utils` to manage datasets. More information in the [utils folder](#utils-folder)
 
 * Then, in the `model_trainer.ipynb` file, specify the **path** to the dataset
 
