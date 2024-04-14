@@ -48,7 +48,6 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 * Run the `real_time_translation.py` file to load the model and use your webcam
 
 
-<br/>
 # GPU management
 ##  Google Colab - Tensorflow or PyTorch
 For this project, Google colab is a very useful tool for processing our data in our machine learning pipeline.  
@@ -58,7 +57,7 @@ In fact, Colab includes a gpu, enabling us to process our data more quickly and 
 * **Upload a dataset in zip format to the Google Drive** - associated with the google account used on Colab.
 * **Change path in code and log in**
 * **Respect the tree structure**
-<br/>
+
 
 ## Cuda Toolkit - Pytorch
 An alternative to Google Colab is the Cuda Toolkit.
