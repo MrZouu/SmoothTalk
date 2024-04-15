@@ -16,6 +16,7 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 * **[Dependencies](#dependencies)**
 * **[Training](#training)**
 * **[Testing](#testing)**
+* **[Streamlit](#streamlit)**
 * **[GPU management](#gpu-management)**
 * **[Utils folder](#utils-folder)**
 * **[Tests](#tests)**
@@ -48,6 +49,14 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 * Specify the path to the **.pth** file generated in the code `real_time_translation.py`
 
 * Run the `real_time_translation.py` file to load the model and use your webcam
+
+<br/>
+
+# Streamlit
+Streamlit is an open source framework that enables you to easily create interactive web applications for machine learning and data science, simply using Python code.
+This allows you to leave your IDE using the `real_time_translation.py` code, and have a proper interface.
+
+* Run the `streamlit_app.py` file to ...
 
 <br/>
 
