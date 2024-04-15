@@ -78,7 +78,7 @@ The advantage is that we are not limited by the free version of Google Colab.
 * **Python** - We recommend installing the [3.10.7](https://www.python.org/downloads/release/python-3107/) Version
 * **Cuda Toolkit** - Install version [11.7.0](https://developer.nvidia.com/cuda-toolkit-archive) - exe installer
 * **Pytorch** - Version 1.13.1. Install the version corresponding to the CUDA version on the [website](https://pytorch.org/)
-- Command path to enter in cmd : "pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117"
+- Command path to enter in cmd : `pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117"`
 * **Installation check** : cmd -> python -> import torch -> torch.cuda.device_count() -> Should display "1"
 
 <br/>
