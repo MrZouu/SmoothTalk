@@ -6,7 +6,7 @@
 Sign language interpreter, to switch from a video signal to a corresponding word.
 This machine-learning project, powered by PyTorch, aims to develop a sign language recognition system.
 
-⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission. This project was proposed by the company "Sia Partners".
+⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission. This project was proposed by Sia Partners.
 
 <br/>
 
@@ -79,7 +79,7 @@ The advantage is that we are not limited by the free version of Google Colab.
 * **Delete_Dataset_Images** - Delete a certain amount of images from a dataset.
 * **EchantillonDataset** - Export a dataset sample to reduce its size.
 * **Generer_Dataset** - Interface allowing you to fill a dataset file with the letters of the alphabet, from the webcam. Press "c" to capture an image and "n" to change letters.
-* **data_augment_V2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
+* **data_augment_V2** - Augment dataset data/images (blur, flip, contrast), with independent selection of quantity of images per class.
 * **merge_dataset_v2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
 * **merge_different_dataset** - Place images from different datasets in a single file, respecting the tree structure.
 
