@@ -54,9 +54,16 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 
 # Streamlit
 Streamlit is an open source framework that enables you to easily create interactive web applications for machine learning and data science, simply using Python code.
+
 This allows you to leave your IDE using the `real_time_translation.py` code, and have a proper interface.
 
-* Run the `streamlit_app.py` file to ...
+* Install streamlit library : ```pip install streamlit```
+
+* Place files `streamlit_app.py` and `recognition_model_streamlit.py` in the same project
+  
+* Run the `streamlit_app.py` file with the command ```streamlit run streamlit_app.py```
+
+A streamlit web page will then appear, allowing you to use the previously generated model.
 
 <br/>
 
