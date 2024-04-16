@@ -1,4 +1,5 @@
 # SmoothTalk
+
 ![Language](https://img.shields.io/badge/Language-Python-f2cb1b)
 ![Libraries](https://img.shields.io/badge/Libraries-TensorFlow-FF6F00)
 ![Libraries](https://img.shields.io/badge/Libraries-PyTorch-00cf2c)
@@ -6,7 +7,10 @@
 Sign language interpreter, to switch from a video signal to a corresponding word.
 This machine-learning project, powered by PyTorch, aims to develop a sign language recognition system.
 
+
 ⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission. This project was developed in collaboration with [Sia Partners](https://www.sia-partners.com/fr).
+
+***Project date : 2024***
 
 <br/>
 
