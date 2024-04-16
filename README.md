@@ -57,11 +57,17 @@ Streamlit is an open source framework that enables you to easily create interact
 
 This allows you to leave your IDE using the `real_time_translation.py` code, and have a proper interface.
 
-* Install streamlit library : ```pip install streamlit```
+* Install streamlit library 
+  ```shell
+  $ pip install streamlit
+  ```
 
 * Place files `streamlit_app.py` and `recognition_model_streamlit.py` in the same project
   
-* Run the `streamlit_app.py` file with the command ```streamlit run streamlit_app.py```
+* Run the `streamlit_app.py` file with the command
+  ```shell
+  $ streamlit run streamlit_app.py
+  ```
 
 A streamlit web page will then appear, allowing you to use the previously generated model.
 
@@ -85,19 +91,23 @@ The advantage is that we are not limited by the free version of Google Colab.
 * **Python** - We recommend installing the [3.10.7](https://www.python.org/downloads/release/python-3107/) Version
 * **Cuda Toolkit** - Install version [11.7.0](https://developer.nvidia.com/cuda-toolkit-archive) - exe installer
 * **Pytorch** - Version 1.13.1. Install the version corresponding to the CUDA version on the [website](https://pytorch.org/)
-- Command path to enter in cmd : `pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117`
+- Command path to enter in cmd
+  
+  ```shell
+  pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+  ```
 * **Installation check** : cmd -> python -> import torch -> torch.cuda.device_count() -> Should display "1"
 
 <br/>
 
 # Utils folder
-* **Data_Augmentation** - Augment dataset data/images (blur, flip, contrast).
-* **Delete_Dataset_Images** - Delete a certain amount of images from a dataset.
-* **EchantillonDataset** - Export a dataset sample to reduce its size.
-* **Generer_Dataset** - Interface allowing you to fill a dataset file with the letters of the alphabet, from the webcam. Press "c" to capture an image and "n" to change letters.
-* **data_augment_V2** - Augment dataset data/images (blur, flip, contrast), with independent selection of quantity of images per class.
-* **merge_dataset_v2** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
-* **merge_different_dataset** - Place images from different datasets in a single file, respecting the tree structure.
+* **`Data_Augmentation.py`** - Augment dataset data/images (blur, flip, contrast).
+* **`Delete_Dataset_Images.py`** - Delete a certain amount of images from a dataset.
+* **`EchantillonDataset.py`** - Export a dataset sample to reduce its size.
+* **`Generer_Dataset.py`** - Interface allowing you to fill a dataset file with the letters of the alphabet, from the webcam. Press "c" to capture an image and "n" to change letters.
+* **`data_augment_V2.py`** - Augment dataset data/images (blur, flip, contrast), with independent selection of quantity of images per class.
+* **`merge_dataset_v2.py`** - Place images from different datasets in a single file, respecting the tree structure, with independent selection of quantity of images per class.
+* **`merge_different_dataset.py`** - Place images from different datasets in a single file, respecting the tree structure.
 
 <br/>
 
