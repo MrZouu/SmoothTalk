@@ -57,11 +57,12 @@ Streamlit is an open source framework that enables you to easily create interact
 
 This allows you to leave your IDE using the `real_time_translation.py` code, and have a proper interface.
 
-* Install streamlit library : ```pip install streamlit```
+* Install streamlit library : ```shell $ pip install streamlit```
 
 * Place files `streamlit_app.py` and `recognition_model_streamlit.py` in the same project
   
-* Run the `streamlit_app.py` file with the command ```streamlit run streamlit_app.py```
+* Run the `streamlit_app.py` file with the command
+  ```streamlit run streamlit_app.py```
 
 A streamlit web page will then appear, allowing you to use the previously generated model.
 
