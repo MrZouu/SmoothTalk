@@ -6,7 +6,7 @@
 Sign language interpreter, to switch from a video signal to a corresponding word.
 This machine-learning project, powered by PyTorch, aims to develop a sign language recognition system.
 
-⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission. This project was proposed by Sia Partners.
+⚠️This project is the result of a common work, made for school with a deadline and we chose to leave it as it was at the time of submission. This project was developed in collaboration with [Sia Partners](https://www.sia-partners.com/fr).
 
 <br/>
 
