@@ -1,6 +1,6 @@
 import streamlit as st
 import cv2
-from mainIA import translate_sign_language
+from recognition_model_streamlit import translate_sign_language
 
 def main():
 
