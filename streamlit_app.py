@@ -29,23 +29,23 @@ def main():
     col1, col2, col3, col4, col5 = st.columns(5)
     # Membre 1
     with col1:
-        st.image("img/SmoothTalk.png", caption="Clément Auray -", use_column_width=True)
+        st.image("SmoothTalk/SmoothTalk.png", caption="Clément Auray -", use_column_width=True)
 
     # Membre 2
     with col2:
-        st.image("img/SmoothTalk.png", caption="Lorenzo Marrocchi -", use_column_width=True)
+        st.image("SmoothTalk/SmoothTalk.png", caption="Lorenzo Marrocchi -", use_column_width=True)
 
     # Membre 3
     with col3:
-        st.image("img/SmoothTalk.png", caption="Mathéo Platret -", use_column_width=True)
+        st.image("SmoothTalk/SmoothTalk.png", caption="Mathéo Platret -", use_column_width=True)
 
     # Membre 4
     with col4:
-        st.image("img/SmoothTalk.png", caption="Evann Ali-Yahia -", use_column_width=True)
+        st.image("SmoothTalk/SmoothTalk.png", caption="Evann Ali-Yahia -", use_column_width=True)
 
     # Membre 5
     with col5:
-        st.image("img/SmoothTalk.png", caption="Thomas Ramade -", use_column_width=True)
+        st.image("SmoothTalk/SmoothTalk.png", caption="Thomas Ramade -", use_column_width=True)
 
     # Pied de page
     st.markdown(
