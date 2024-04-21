@@ -49,7 +49,7 @@ def main():
 
     # Pied de page
     st.markdown(
-        "Pour plus d'informations, consultez [notre site web](http://www.votresite.com)"
+        "Pour plus d'informations, consultez [notre GitHub](https://github.com/MrZouu/SmoothTalk)"
     )
 
 
