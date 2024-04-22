@@ -10,7 +10,7 @@ This machine-learning project, powered by PyTorch, aims to develop a sign langua
 <br/>
 
 <p align="center">
-	<img src="SmoothTalk/SmoothTalkCover.png" width="800">
+	<img src="SmoothTalk/SmoothTalkCover2.png" width="800">
 </p>
 
 <br/>
